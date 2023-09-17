@@ -1,3 +1,12 @@
+ 
+ 
+ .footer{
+display: fle
+
+
+ }
+ 
+ 
  .gornji {
 display: flex;
 justify-content: space-around;
@@ -5,7 +14,9 @@ background-color: #1f2937 ;
     color: white;
 align-items: center;
 
+
 }
+
 
 
 h5 {
@@ -30,3 +41,63 @@ font-size: 18px;
 color: #e5e7eb;
 
 }
+
+.donji {
+display: flex;
+
+justify-content: center;
+padding: 70px;
+align-items: center;
+background-color: #1f2937;
+flex: 1;
+
+gap: 40px;
+}
+
+
+.slika {
+display: flex;
+overflow: hidden;
+width: 450px;
+height: 300px;
+
+
+
+}
+
+.slika img {
+display: block;
+height: 100%;
+width: 100%;
+
+
+
+}
+
+.text {
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+h1 {
+font-size: 42px;
+
+
+}
+
+.botun  {
+
+display: flex;
+flex-shrink: 1;
+
+
+}
+
+button {
+ background-color: #3882f6 ;
+color: white;
+padding: 10px;
+
