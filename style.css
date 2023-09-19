@@ -1,10 +1,17 @@
  
  
- .footer{
-display: fle
 
 
- }
+
+body {
+
+padding: 0;
+     margin: 0;
+}
+
+
+
+ 
  
  
  .gornji {
@@ -42,51 +49,61 @@ color: #e5e7eb;
 
 }
 
-.donji {
+.container-drugi {
+    background-color: #1f2937 ;
 display: flex;
-
+flex-direction: row;
 justify-content: center;
-padding: 70px;
-align-items: center;
-background-color: #1f2937;
-flex: 1;
 
-gap: 40px;
-}
-
-
-.slika {
-display: flex;
-overflow: hidden;
-width: 450px;
-height: 300px;
-
-
-
+padding: 50px;
 }
 
 .slika img {
-display: block;
-height: 100%;
-width: 100%;
 
+width: 500px;
+height: 300px;
 
 
 }
 
+
+
+.slika {
+padding: 30px;
+
+
+}
+
+
+
 .text {
+padding: 30px;
 
-display: flex;
-flex-direction: column;
-
-
+flex-direction: column ;
+justify-content: center;
+max-width: 500px;
+min-height: 350px;
+flex: 1
+;
 }
 
 h1 {
-font-size: 42px;
+font-size: 48px;
+color: white;
 
 
 }
+
+p {
+
+font-size: 18px;
+color: #f9faf8;
+
+
+
+}
+
+
 
 .botun  {
 
@@ -101,3 +118,89 @@ button {
 color: white;
 padding: 10px;
 
+}
+
+
+
+.container-treci {
+
+padding: 0;
+margin: 0;
+
+
+
+}
+
+ .container-treci h1 {
+color: #1f2937;
+justify-content: center;
+display: flex;
+}
+.boxes {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+ 
+ 
+
+
+.box img  {
+width: 200px; 
+height: 200px;
+
+
+
+}
+
+.box {
+display: flex;
+
+width: 300px;
+height: 300px;
+
+flex-direction: column;
+}
+
+.box p {
+color: #1f2937;
+
+
+}
+
+
+.container-cetvrti {
+padding: 0;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+align-items: center;
+background-color: #e5e7eb;
+}
+
+.quote {
+display: flex;
+flex-direction: column;
+width: 700px;
+
+}
+
+.quote p {
+color: black;
+font-size: 36px;
+font-style: italic;
+
+}
+
+.mali {
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+flex-shrink: 0;
+font-size: 25px;
+font-weight: 900;
+}
